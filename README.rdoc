@@ -1,4 +1,4 @@
-= Exception Logger for Rails 4
+= Exception Logger for Rails 5
 
 This gem is evolved from the outdated exception_logger gem. I refined it with the mountable rails engine, making it convenient to
 mount to any existing rails app.
@@ -7,11 +7,8 @@ mount to any existing rails app.
 
 Inside your Gemfile:
 
-  # Rails 4.1.x
+  # Rails 5.1.x
   gem "exception_logger", :github => "xuyao91/exception_logger"
-
-  # Rails 4.0.x
-  gem "exception_logger", :github => "xuyao91/exception_logger", tag: 'v0.1.0'
 
 and then run:
 
