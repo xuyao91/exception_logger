@@ -8,10 +8,10 @@ mount to any existing rails app.
 Inside your Gemfile:
 
   # Rails 4.1.x
-  gem "exception_logger", :github => "ryancheung/exception_logger"
+  gem "exception_logger", :github => "xuyao91/exception_logger"
 
   # Rails 4.0.x
-  gem "exception_logger", :github => "ryancheung/exception_logger", tag: 'v0.1.0'
+  gem "exception_logger", :github => "xuyao91/exception_logger", tag: 'v0.1.0'
 
 and then run:
 
