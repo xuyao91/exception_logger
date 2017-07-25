@@ -1,4 +1,4 @@
-class CreateExceptionLoggerLoggedExceptions < ActiveRecord::Migration
+class CreateExceptionLoggerLoggedExceptions < ActiveRecord::Migration[5.1]
   def change
     create_table :logged_exceptions, :force => true do |t|
       t.string :exception_class
