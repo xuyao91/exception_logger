@@ -1,4 +1,4 @@
-class CreateExceptionLoggerLoggedExceptions < ActiveRecord::Migration[5.1]
+class CreateExceptionLoggerLoggedExceptions < Rails::VERSION::MAJOR <= 4 ? ActiveRecord::Migration : ActiveRecord::Migration["#{Rails.version[0,3]}"]
   def change
     create_table :logged_exceptions, :force => true do |t|
       t.string :exception_class
